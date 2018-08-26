@@ -1,6 +1,7 @@
 def run_guessing_game
   loop do
     target = 1 + Random.rand(6)
+    puts "Guess a number between 1 and 6."
     input = gets.chomp
     if input == "exit" 
       break
